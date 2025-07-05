@@ -1,0 +1,8 @@
+toast("Iniciando bot...");
+sleep(2000);
+
+while (true) {
+    click(500, 1700); // coordenadas do botão de aposta
+    toast("Clique feito!");
+    sleep(10000); // 10 segundos de espera
+}
